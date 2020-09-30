@@ -246,13 +246,13 @@ The shortcode name is the file name minus the `.html` file extension.
 **Example:** The following shortcode defines the minimum required version of
 Kubernetes:
 
-- File name of the shortcode:
+- File name of the short code:
 
   ```
   kubernetes-min-version.html
   ```
 
-- Content of the shortcode:
+- Content of the short code:
 
   ```
   1.8
@@ -270,7 +270,7 @@ Useful Hugo docs:
 ## Versioning of the docs
 
 For each stable release, we create a new branch for the relevant documentation. For
-example, the documentation for the v0.2 stable release is maintained in the
+Example, the documentation for the v0.2 stable release is maintained in the
 [v0.2-branch](https://github.com/kubeflow/website/tree/v0.2-branch).
 Each branch has a corresponding Netlify website that automatically syncs each merged PR.
 
@@ -280,7 +280,7 @@ The versioned sites follow this convention:
 * `vXXX-YYY.kubeflow.org` points to the release at vXXX.YYY-branch
 
 We also hook up each version to the dropdown on the website menu bar. For 
-information on how to update the website to a new version, see the [Kubeflow
+Information on how to update the website to a new version, see the [Kubeflow
 release guide](https://github.com/kubeflow/kubeflow/blob/master/docs_dev/releasing.md#releasing-a-new-version-of-the-website).
 
 Whenever any documents reference any source code, you should use the version
